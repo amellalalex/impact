@@ -104,3 +104,57 @@ h4.service-heading
     margin-bottom: auto!important;
   }
 }
+
+/* Desktop vs mobile changes */
+
+.desktop
+{
+  display: none;
+}
+
+.mobile
+{
+  display: none;
+}
+
+.mobile-sm
+{
+  display: block;
+}
+
+@media (min-width: 447px)
+{
+  .desktop
+  {
+    display: none;
+  }
+
+  .mobile
+  {
+    display: block;
+  }
+
+  .mobile-sm
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .desktop
+  {
+    display: block;
+  }
+
+  .mobile
+  {
+    display: none;
+  }
+
+  .mobile-sm
+  {
+    display: none;
+  }
+
+}
