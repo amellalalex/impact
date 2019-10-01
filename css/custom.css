@@ -21,12 +21,12 @@
 
 .impact-bg-neutral
 {
-  background-color: #dedede;
+  background-color: #EFD28D;
 }
 
 .impact-color-neutral
 {
-  color: #dedede;
+  color: #EFD28D;
 }
 
 .impact-color-go
@@ -44,9 +44,26 @@
   color: #9b3e00;
 }
 
-.black-text
+
+
+.impact-color-danger
 {
-  color: black;
+  color: #A30000;
+}
+
+.impact-bg-danger
+{
+  background-color: #A30000;
+}
+
+.impact-color-cyan
+{
+  color: #007090;
+}
+
+.impact-bg-cyan
+{
+  background-color: #007090;
 }
 
 /* Special effects */
@@ -59,4 +76,11 @@
 .zoom:hover
 {
   transform: scale(1.1);
+}
+
+/* Headings */
+
+h4.service-heading
+{
+  font-weight: normal;
 }
