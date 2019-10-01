@@ -3,3 +3,4 @@
 -Created favicon and added it to the site
 -added new background and made text black
 -added grey overlay on background
+-added modal popup when clicking on emergencies
