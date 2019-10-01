@@ -4,3 +4,5 @@
 -added new background and made text black
 -added grey overlay on background
 -added modal popup when clicking on emergencies
+-removed useless files
+-added copyright and facebook link in the footer
