@@ -1,0 +1,2 @@
+-Preliminary market analysis
+-Changed service section to flow better
