@@ -92,9 +92,34 @@
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x zoom">
-            <i class="fas fa-circle fa-stack-2x impact-color-danger"></i>
-            <i class="fas fa-exclamation-circle fa-stack-1x fa-inverse"></i>
+            <a href="#" data-toggle="modal" data-target="#EmergenciesModal">
+              <i class="fas fa-circle fa-stack-2x impact-color-danger"></i>
+              <i class="fas fa-exclamation-circle fa-stack-1x fa-inverse"></i>
+            </a>
           </span>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="EmergenciesModal" tabindex="-1" role="dialog" aria-labelledby="EmergenciesModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="EmergenciesModal">Emergencies</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn impact-bg-danger" style="color: white;" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h4 class="service-heading">Emergencies</h4>
           <!-- <p class="text-muted">We provide peace of mind from invasive insects and pests ranging from rats to bed bugs.</p> -->
           <!-- <p class="text-muted">We aim to reduce the levels of insects while avoiding the elimination of beneficial organisms in the ecosystem.</p> -->
@@ -151,11 +176,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About Us</h2>
-          <h3 class="section-subheading text-muted">Your trusted local exterminators since 2000</h3>
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-
       <div class="row">
         <div class="col-lg-6">
           <img class="about-logo" src="img/impact_logo.png" style="width: 100%;" alt="">
