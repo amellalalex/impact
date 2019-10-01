@@ -1,0 +1,57 @@
+/* Color scheme */
+.impact-bg-primary
+{
+  background-color: #133c8c;
+}
+
+.impact-color-primary
+{
+  color: #133c8c;
+}
+
+.impact-bg-secondary
+{
+  background-color: #fe6500;
+}
+
+.impact-color-secondary
+{
+  color: #fe6500;
+}
+
+.impact-bg-neutral
+{
+  background-color: #dedede;
+}
+
+.impact-color-neutral
+{
+  color: #dedede;
+}
+
+.impact-color-go
+{
+  color: #308c13;
+}
+
+.impact-bg-go
+{
+  background-color: #308c13;
+}
+
+.impact-color-brown
+{
+  color: #9b3e00;
+}
+
+/* Special effects */
+
+.zoom
+{
+  transition: transform 0.2s;
+}
+
+.zoom:hover
+{
+  transform: scale(1.1);
+}
