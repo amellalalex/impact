@@ -92,9 +92,34 @@
       <div class="row text-center">
         <div class="col-md-4">
           <span class="fa-stack fa-4x zoom">
-            <i class="fas fa-circle fa-stack-2x impact-color-danger"></i>
-            <i class="fas fa-exclamation-circle fa-stack-1x fa-inverse"></i>
+            <a href="#" data-toggle="modal" data-target="#EmergenciesModal">
+              <i class="fas fa-circle fa-stack-2x impact-color-danger"></i>
+              <i class="fas fa-exclamation-circle fa-stack-1x fa-inverse"></i>
+            </a>
           </span>
+
+
+          <!-- Modal -->
+          <div class="modal fade" id="EmergenciesModal" tabindex="-1" role="dialog" aria-labelledby="EmergenciesModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="EmergenciesModal">Emergencies</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn impact-bg-danger" style="color: white;" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <h4 class="service-heading">Emergencies</h4>
           <!-- <p class="text-muted">We provide peace of mind from invasive insects and pests ranging from rats to bed bugs.</p> -->
           <!-- <p class="text-muted">We aim to reduce the levels of insects while avoiding the elimination of beneficial organisms in the ecosystem.</p> -->
@@ -151,25 +176,77 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About Us</h2>
-          <h3 class="section-subheading text-muted">Your trusted local exterminators since 2000</h3>
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
         </div>
       </div>
-
       <div class="row">
-        <div class="col-md-6">
-          <img class="align-middle" src="img/impact_logo.png" style="width: 100%;" alt="">
-        </div>
-        <div class="col-md-6">
-          <p>
-            Impact Pest Control is Moncton's trusted locally owned and operated pest control company.
-          </p>
-          <p>
-            We strive to give our clients peace of mind by providing safe, effective and environmentally responsible solutions that  protect client assets including homes and business while ensuring a safe and healthy environment.
-          </p>
-          <p>
-            We are Trained, certified and  fully insured professionals that will give you guaranteed results.  Impact Pest Control practices Integrated Pest Management in conformity with government regulations, as well as best practices and food quality and safety standards as set by industry.
-          </p>
+        <div class="col-lg-12">
+          <ul class="timeline">
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>2009-2011</h4>
+                  <h4 class="subheading">Our Humble Beginnings</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>March 2011</h4>
+                  <h4 class="subheading">An Agency is Born</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>December 2012</h4>
+                  <h4 class="subheading">Transition to Full Service</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
+              </div>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4>July 2014</h4>
+                  <h4 class="subheading">Phase Two Expansion</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+              </div>
+            </li>
+            <li class="timeline-inverted">
+              <div class="timeline-image">
+                <h4>Be Part
+                  <br>Of Our
+                  <br>Story!</h4>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
