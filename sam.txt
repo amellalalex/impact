@@ -7,3 +7,4 @@
 -removed useless files
 -added copyright and facebook link in the footer
 -added phone number
+-adjusted styling on navbar
