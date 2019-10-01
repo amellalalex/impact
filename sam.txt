@@ -9,3 +9,4 @@
 -added phone number
 -adjusted styling on navbar
 -added new contact section with links for call, email
+-added service area information
