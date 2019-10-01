@@ -87,3 +87,11 @@ h4.service-heading
 {
   font-weight: normal;
 }
+
+/* About section */
+
+.about-logo
+{
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
