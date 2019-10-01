@@ -92,6 +92,15 @@ h4.service-heading
 
 .about-logo
 {
-  margin-top: 50%;
-  transform: translateY(-50%);
+  margin-top: -5rem!important;
+  margin-bottom: 2rem!important;
+}
+
+@media (min-width: 995px)
+{
+  .about-logo
+  {
+    margin-top: auto!important;
+    margin-bottom: auto!important;
+  }
 }
