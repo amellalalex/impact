@@ -17,3 +17,4 @@
 -changed text selection colour to light blue
 -added modal popup to each service
 -fixed positioning of photos on mobile
+-added some content to the service modals
