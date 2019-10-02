@@ -10,3 +10,5 @@
 -adjusted styling on navbar
 -added new contact section with links for call, email
 -added service area information
+-added pest information section
+-added pest image and list of pests
