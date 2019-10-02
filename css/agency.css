@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #add3e6;
 }
 
 a:hover {
-  color: #fec503;
+  color: #add3e6;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #add3e6 !important;
 }
 
 h1,
@@ -61,12 +61,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #add3e6;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #add3e6;
   text-shadow: none;
 }
 
