@@ -14,3 +14,5 @@
 -added pest image and list of pests
 -rearranged sections
 -added link to pest section
+-changed text selection colour to light blue
+-added modal popup to each service
