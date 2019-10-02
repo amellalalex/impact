@@ -16,3 +16,4 @@
 -added link to pest section
 -changed text selection colour to light blue
 -added modal popup to each service
+-fixed positioning of photos on mobile
