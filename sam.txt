@@ -12,3 +12,5 @@
 -added service area information
 -added pest information section
 -added pest image and list of pests
+-rearranged sections
+-added link to pest section
