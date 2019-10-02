@@ -159,6 +159,29 @@ h4.service-heading
 
 }
 
+.btn.btn-mobile
+{
+  width: 100%;
+}
+
+.btn.btn-mobile.bottom
+{
+  margin-top: 1rem;
+}
+
+@media (min-width: 992px)
+{
+  .btn.btn-mobile
+  {
+    width: auto;
+  }
+
+  .btn.btn-mobile.bottom
+  {
+    margin-top: 0rem;
+  }
+}
+
 /* Image effects */
 
 .img-rounded
