@@ -122,6 +122,16 @@ h4.service-heading
   display: block;
 }
 
+.mobile.fr
+{
+  font-size: 0.8rem;
+}
+
+.mobile-sm.fr
+{
+  
+}
+
 @media (min-width: 447px)
 {
   .desktop
